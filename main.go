@@ -175,6 +175,7 @@ func main() {
 	pres.SrcMode = false
 	pres.HTMLMode = false
 	pres.URLForSrcPos = srcPosLinkFunc
+	pres.AllMode = true
 
 	if *altPkgTemplate != "" {
 		buf, err := ioutil.ReadFile(*altPkgTemplate)
